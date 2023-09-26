@@ -58,17 +58,18 @@
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://www.linkedin.com/in/sandip-ganava-a4a368245/'"
-          />
-          <img
-            src="./assets/github.png"
-            alt="My Github profile"
-            class="icon"
-            onclick="location.href='https://github.com/sandip2505'"
-          />
+          src="./assets/linkedin.png"
+          alt="My LinkedIn profile"
+          class="icon"
+          onclick="window.open('https://www.linkedin.com/in/sandip-ganava-a4a368245/', '_blank')"
+        />
+        <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="window.open('https://github.com/sandip2505', '_blank')"
+        />
+        
         </div>
       </div>
     </section>
@@ -105,14 +106,9 @@
             </div>
           </div>
           <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
+            <b>
+              Hello, I'm Sandip Ganava, a seasoned web developer with 2 years of valuable experience at Code Crew Infotech. I specialize in full-stack web development, which means I can handle both the frontend and backend aspects of building modern, dynamic websites and applications.
+            </b>
           </div>
         </div>
       </div>
@@ -287,6 +283,7 @@
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
         <div class="about-containers">
+          <!-- Project One -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -295,8 +292,10 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
+            <h2 class="experience-sub-title project-title">EMS(employee management system)</h2>
+            <p class="project-description">The Employee Management System is a web-based application designed to simplify and optimize the management of employees in an organization. It offers a user-friendly interface to assist HR professionals and managers in maintaining employee records, tracking attendance, processing payroll, and conducting performance evaluations.</p>
+            <b class="project-technology">Technology: Node.js, Express.js & mongodb</b>
+            <!-- <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
@@ -309,7 +308,7 @@
               >
                 Live Demo
               </button>
-            </div>
+            </div> -->
           </div>
           <div class="details-container color-container">
             <div class="article-container">
@@ -319,8 +318,10 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
+            <h2 class="experience-sub-title project-title">Panchal Samaj Application</h2>
+            <p class="project-description">The Panchal Samaj Application is a mobile and web-based platform dedicated to serving the needs of the Panchal community. It facilitates communication, information sharing, event management, and community engagement, strengthening the bonds among community members.</p>
+            <b class="project-technology">Technology: ReactNative,  Node.js, Express.js Mongodb</b>
+            <!-- <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
@@ -333,8 +334,10 @@
               >
                 Live Demo
               </button>
-            </div>
+            </div> -->
           </div>
+          
+          <!-- Project Two -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -343,8 +346,10 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
+            <h2 class="experience-sub-title project-title">Machinery Business E-commerce Platform</h2>
+            <p class="project-description">The Machinery Business E-commerce Platform is an online marketplace designed for businesses and individuals to buy and sell machinery and equipment. It simplifies the process of trading in industrial machinery, offering a user-friendly, secure, and efficient platform.</p>
+            <b class="project-technology">Technology: PHP  MYSQL</b>
+            <!-- <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
@@ -357,8 +362,10 @@
               >
                 Live Demo
               </button>
-            </div>
+            </div> -->
           </div>
+          
+          <!-- Project Three -->
           <div class="details-container color-container">
             <div class="article-container">
               <img
@@ -367,8 +374,10 @@
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
+            <h2 class="experience-sub-title project-title">Video Production Services</h2>
+            <p class="project-description">PixoStory is an online marketplace and platform connecting video production professionals and businesses seeking video production services. It offers an efficient way to access a diverse range of video production talents for various projects.</p>
+            <b class="project-technology">Technology: Wordpress</b>
+            <!-- <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
                 onclick="location.href='https://github.com/'"
@@ -381,7 +390,7 @@
               >
                 Live Demo
               </button>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -392,6 +401,7 @@
         onclick="location.href='./#contact'"
       />
     </section>
+    
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -402,7 +412,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">sandipganava2357@gmail.com</a></p>
+          <p><a href="mailto:sandipganava2357@gmail.com" target="_blank">sandipganava2357@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -410,7 +420,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/sandip-ganava-a4a368245/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/sandip-ganava-a4a368245/" target="_blank">LinkedIn</a></p> 
         </div>
       </div>
     </section>
